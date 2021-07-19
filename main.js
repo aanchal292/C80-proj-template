@@ -8,8 +8,7 @@ function submit()
     console.log(names_of_people);
     var lenght_of_name = names_of_people.length;
     console.log(lenght_of_name);
-	document.getElementById("    ").innerHTML=names_of_people.toString();
-	// display the name in the id = display_name
+	document.getElementById("display_name").innerHTML=names_of_people.toString();
    }
 
 
@@ -36,8 +35,7 @@ function sorting()
 
 function searching()
 {
-	var s= document.getElementById("   ").value;
-	// store the value from text input with id= s1
+	var s= document.getElementById("s1").value;
 	var found=0;
 	var j;
 	for(j=0; j<names_of_people.length; j++)
